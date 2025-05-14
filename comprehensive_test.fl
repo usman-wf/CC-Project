@@ -1,0 +1,29 @@
+int max(int a, int b) {
+    if (a > b) {
+        return a;
+    }
+    return b;
+}
+
+int main() {
+    int a, b, result;
+    
+    scan(a);
+    scan(b);
+    
+    result := max(a, b);
+    
+    if (result > 10) {
+        int i := 0;
+        while (i < result) {
+            if (i % 2 == 0) {
+                print(i);
+            }
+            i := i + 1;
+        }
+    } else {
+        print(result);
+    }
+    
+    return 0;
+}

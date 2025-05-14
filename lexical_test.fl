@@ -1,0 +1,15 @@
+int main() {
+    int num := 123;
+    bool flag := true;
+    string msg := "test";
+    char c := 'x';
+    
+    // Testing operators
+    num := num + 5 * (10 / 2);
+    flag := num > 50 and not flag;
+    
+    /* Multi-line
+       comment test */
+    
+    return 0;
+}

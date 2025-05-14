@@ -1,0 +1,21 @@
+int add(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int x, y;
+    
+    // If-else statement
+    if (x < 10) {
+        y := 5;
+    } else {
+        y := 10;
+    }
+    
+    // While loop
+    while (x > 0) {
+        x := x - 1;
+    }
+    
+    return add(x, y);
+}

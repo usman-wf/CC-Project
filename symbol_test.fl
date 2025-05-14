@@ -1,0 +1,15 @@
+int test(int x) {
+    int x;        // Duplicate parameter
+    y := 10;      // Undeclared variable
+    return z;     // Undeclared variable
+}
+
+int test(int a) { // Duplicate function
+    return a;
+}
+
+int main() {
+    int a, a;     // Duplicate declaration
+    b := 5;       // Undeclared variable
+    return 0;
+}

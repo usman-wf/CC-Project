@@ -1,0 +1,23 @@
+int calculate(int x, bool flag) {
+    if (flag) {
+        return x * 2;
+    }
+    return x;
+}
+
+int main() {
+    int a := 5;
+    bool b := true;
+    string s := "test";
+    
+    // Valid operations
+    a := a + 10;
+    b := a > 10;
+    
+    // Type errors
+    a := a + b;      // Adding int and bool
+    b := "string";   // String to bool
+    a := calculate(b, a); // Type mismatch in args
+    
+    return 0;
+}

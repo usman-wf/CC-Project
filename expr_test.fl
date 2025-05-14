@@ -1,0 +1,13 @@
+int main() {
+    int a := 5, b := 10;
+    bool flag;
+    
+    // Complex expressions
+    a := (a + b) * (a - b) / 2;
+    flag := (a > b) and (b < 20) or not (a == 15);
+    
+    // Mixed type expressions (should fail)
+    a := a + (b > 5);
+    
+    return 0;
+}
